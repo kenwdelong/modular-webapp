@@ -1,0 +1,5 @@
+- web-fragment and web.xml not needed; no effect
+- the servlets must have different names
+- the JSPs must reside under different top-level directories or they will get confused
+- only one root app context
+- must install a view resolver in the app
